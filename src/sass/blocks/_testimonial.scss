@@ -1,0 +1,38 @@
+.testimonial {
+	min-height: 595px;
+	background-color: #f0f6f4;
+	padding: 80px 0 100px 0;
+	&__wrapper {
+		display: flex;
+		justify-content: space-between;
+		margin-top: 43px;
+	}
+	&__item {
+		position: relative;
+		width: 263px;
+		height: 263px;
+		border-radius: 6px;
+		&:hover {
+			transform: scale(1.1);
+		}
+	}
+	&__title {
+		position: absolute;
+		bottom: 40px;
+		left: 10px;
+		font-family: $montserrat_regular;
+		font-size: 14px;
+		font-weight: bold;
+		line-height: 2.04;
+		color: #ffffff;
+	}
+	&__descr {
+		position: absolute;
+		bottom: 15px;
+		left: 10px;
+		font-family: $montserrat_regular;
+		font-size: 13px;
+		line-height: 13px;
+		color: #ffffff;
+	}
+}

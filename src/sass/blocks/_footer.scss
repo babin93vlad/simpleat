@@ -1,0 +1,81 @@
+.footer {
+	min-height: 322px;
+	background-color: #192632;
+	&__social {
+		padding: 50px 0;
+	}
+	&__icons {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		a {
+			margin: 0 21px;
+			&:hover {
+				transform: scale(1.1);
+			}
+		}
+	}
+	&__menu {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin-top: 32px;
+		a {
+			padding: 0 27px;
+			color: #ffffff;
+			font-size: 16px;
+			font-family: $montserrat_regular;
+			border-right: 1px solid #f0f6f4;
+
+			&:last-child {
+				border: none;
+			}
+		}
+	}
+	&__copy {
+		margin-top: 28px;
+		text-align: center;
+		color: #ffffff;
+		font-size: 16px;
+		font-family: $montserrat_regular;
+	}
+	&__contacts {
+		height: 80px;
+		background-color: $grey_color;
+		display: flex;
+		margin-top: auto;
+		align-items: center;
+		padding: 0 150px;
+	}
+	&__item {
+		display: flex;
+		align-items: center;
+		margin-right: 30px;
+		a {
+			display: flex;
+			flex-direction: column;
+			margin-left: 10px;
+			color: #ffffff;
+			font-size: 18px;
+			line-height: 18px;
+		}
+		span {
+			color: #ffffff;
+			font-size: 13px;
+		}
+		&:last-child {
+			margin-left: auto;
+		}
+	}
+	&__language {
+		width: 195px;
+		height: 40px;
+		border: 1px solid $grey_color;
+		padding-left: 25px;
+		border-radius: 6px;
+		background: url("../../icons/footer/en.png") left center no-repeat;
+		background-position: left 5px top 50%, 0 0;
+		background-color: #1e242b;
+		color: #ffffff;
+	}
+}

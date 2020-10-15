@@ -1,0 +1,799 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="shortcut icon" href="#" />
+		<link rel="stylesheet" href="css/style.min.css" />
+		<title>Simpleat</title>
+	</head>
+	<body>
+		<header class="header">
+			<div class="container">
+				<ul class="header__menu">
+					<li class="header__item">
+						<a href="#" class="header__link">
+							<img
+								src="./icons/header/waggon.png"
+								alt="waggon"
+								class="header__icon"
+							/>
+							Card
+						</a>
+					</li>
+
+					<li class="header__item">
+						<a href="#" class="header__link"> Contact </a>
+					</li>
+
+					<li class="header__item">
+						<a href="#" class="header__link">
+							<img src="./img/logo.png" alt="logo" class="header__logo" />
+						</a>
+					</li>
+
+					<li class="header__item">
+						<a href="#" class="header__link">
+							<img
+								src="./icons/header/user.png"
+								alt="waggon"
+								class="header__icon"
+							/>
+							Sign in
+						</a>
+					</li>
+					<li class="header__item">
+						<button class="btn btn__header">Order now</button>
+					</li>
+				</ul>
+			</div>
+		</header>
+
+		<section class="order">
+			<div class="container">
+				<div class="order__wrapper">
+					<div class="order__img">
+						<img src="./img/bottles.png" alt="bottles" />
+					</div>
+					<div class="order__product">
+						<div class="title">
+							<div class="title__header">More than food</div>
+							<img class="title__icon" src="./icons/hr.png" alt="hr" />
+						</div>
+						<div class="order__descr">
+							Everything your body needs in one bottle of Simpleat. Drink
+							Simpleat and forget about hunger. Be the first to try nutrition
+							designed <br />
+							for your needs.
+							<span> Free shipping for orders over €90</span>
+						</div>
+						<select class="order__number">
+							<option selected value="12 bottles">12 bottles</option>
+							<option value="24 bottles">24 bottles</option>
+							<option value="36 bottles">36 bottles</option>
+							<option value="48 bottles">48 bottles</option>
+							<option value="60 bottles">60 bottles</option>
+							<option value="72 bottles">72 bottles</option>
+							<option value="84 bottles">84 bottles</option>
+							<option value="96 bottles">96 bottles</option>
+							<option value="108 bottles">108 bottles</option>
+							<option value="120 bottles">120 bottles</option>
+						</select>
+
+						<div class="order__check">
+							<div class="order__checkbox">
+								<label class="order__label">
+									<input
+										class="order__input"
+										type="radio"
+										name="chk"
+										id="one-time"
+									/>
+									<span class="order__checked order__uncheckced"></span>
+									<span class="order__subtitle">One-time</span>
+									<br />
+									Purchase</label
+								>
+							</div>
+
+							<div class="order__popup">
+								By subscribing you will receive 12 bottles of Simpleat monthly.
+								<br />
+								<br />
+								You can cancel your subscribing anytime.
+								<a href="#">Learn more</a>
+							</div>
+
+							<div class="order__checkbox">
+								<label class="order__label">
+									<input
+										class="order__input"
+										type="radio"
+										checked
+										name="chk"
+										id="subscribe"
+									/>
+									<span class="order__checked order__uncheckced"></span>
+									<span class="order__subtitle">Subscribe</span>
+									<br />
+									and save 5%
+								</label>
+							</div>
+						</div>
+						<div class="order__price">
+							<div>
+								<span class="order__span">€32</span>
+								<br />
+								€2.60 per meal (400 kcal)
+							</div>
+							<button class="btn btn__order">Add to card</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<div class="cookies">
+			<img class="cookies__icon" src="icons/mark.png" alt="cookies" />
+			<span class="cookies__descr">
+				This website uses cookies. The information in the cookies is used to
+				provide the best experience for you on our website.
+			</span>
+			<button class="btn btn__cookies" id="cookies">I agree</button>
+		</div>
+
+		<section class="promo">
+			<div class="container">
+				<div class="promo__wrapper">
+					<div class="promo__about">
+						<div class="title">
+							<div class="title__header title__promo">What is Simpleat?</div>
+							<img class="title__icon" src="./icons/hr_white.png" alt="hr" />
+						</div>
+						<div class="promo__descr">
+							Simpleat is made to provide the perfectly balanced diet with every
+							nutrient your body needs for optimal health.
+							<br />
+							<div class="promo__descr_subtitle">
+								Simpleat will take care of your hunger while
+								<br />
+								you have more important things to do
+								<br />
+								whether it is your work, business, travel or
+								<br />
+								simply having fun.
+							</div>
+						</div>
+					</div>
+					<div class="promo__video">
+						<a href="#" class="call-popup">
+							<img src="img/video.png" alt="video" />
+						</a>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<div class="modal">
+			<iframe
+				class="modal__on"
+				width="654"
+				height="362"
+				src="https://www.youtube.com/embed/vzkRMgKboJQ"
+				frameborder="0"
+				allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+				allowfullscreen
+			></iframe>
+			<a class="modal__exit" href="#">
+				<span class="modal__close"></span>
+			</a>
+		</div>
+
+		<section class="benefits">
+			<div class="container">
+				<div class="title">
+					<div class="title__header">Why Simpleat?</div>
+					<img class="title__icon" src="./icons/hr.png" alt="hr" />
+					<div class="title__subtitle">Enjoy all the benefits of Simpleat</div>
+				</div>
+				<div class="benefits__wrapper">
+					<div class="benefits__item">
+						<img
+							class="benefits__icon"
+							src="./icons/benefits/nutrition.png"
+							alt="nutrition"
+						/>
+						<div class="benefits__subtitle">Complete nutrition</div>
+						<div class="benefits__descr">
+							One bottle of Simleat provides 20% of your daiyly needs for
+							calories and micronutrients
+						</div>
+					</div>
+
+					<div class="benefits__item">
+						<img
+							class="benefits__icon"
+							src="./icons/benefits/time.png"
+							alt="time"
+						/>
+						<div class="benefits__subtitle">Save time</div>
+						<div class="benefits__descr">
+							Spend your time on business, sport, work, family or fun. Simpleat
+							will take care of your nutrition.
+						</div>
+					</div>
+
+					<div class="benefits__item">
+						<img
+							class="benefits__icon"
+							src="./icons/benefits/money.png"
+							alt="money"
+						/>
+						<div class="benefits__subtitle">Save money</div>
+						<div class="benefits__descr">
+							Reasonable price for a complete, balanced and healthy meal.
+						</div>
+					</div>
+
+					<div class="benefits__item">
+						<img
+							class="benefits__icon"
+							src="./icons/benefits/health.png"
+							alt="health"
+						/>
+						<div class="benefits__subtitle">Great health</div>
+						<div class="benefits__descr">
+							Simpleat helps your body to stay healthy and vibrant.
+						</div>
+					</div>
+
+					<div class="benefits__item">
+						<img
+							class="benefits__icon"
+							src="./icons/benefits/energy.png"
+							alt="energy"
+						/>
+						<div class="benefits__subtitle">High energy</div>
+						<div class="benefits__descr">
+							No sugar spikes, only sustainable level of energy.
+						</div>
+					</div>
+
+					<div class="benefits__item">
+						<img
+							class="benefits__icon"
+							src="./icons/benefits/nutrition.png"
+							alt="nutrition"
+						/>
+						<div class="benefits__subtitle">No hunger</div>
+						<div class="benefits__descr">
+							A bottle of Simpleat immediately saves you from hunger and satisfy
+							your body needs.
+						</div>
+					</div>
+				</div>
+				<button class="btn btn__benefits">Order Simleat</button>
+			</div>
+		</section>
+
+		<section class="testimonial">
+			<div class="container">
+				<div class="title">
+					<div class="title__header">Testimonial</div>
+					<img class="title__icon" src="./icons/hr.png" alt="hr" />
+					<div class="title__subtitle">
+						Simpleat is made to provide the perfectly balanced diet with every
+						nutrient your body needs for optimal health.
+					</div>
+				</div>
+				<div class="testimonial__wrapper">
+					<div class="testimonial__item">
+						<!-- Оставил в итоге фото из макета, потому что мешал логотип Ютуба -->
+
+						<!-- <iframe
+							width="263"
+							height="263"
+							src="https://www.youtube.com/embed/QThsl_I01tg?controls=0"
+							modestbranding="1"
+							frameborder="0"
+							fs="0"
+							showinfo="0"
+							allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+							allowfullscreen
+						></iframe> -->
+
+						<img src="img/testimonial/girl.png" alt="girl" />
+
+						<div class="testimonial__title">Anna,25 • Manager</div>
+						<div class="testimonial__descr">
+							Lorem ipsum dolor sit elit,sed do eiusmod elit,sed do eiusmod
+							ipsum
+						</div>
+					</div>
+
+					<div class="testimonial__item">
+						<img src="img/testimonial/men.png" alt="men" />
+						<div class="testimonial__title">Stiv,25 • Manager</div>
+						<div class="testimonial__descr">
+							Lorem ipsum dolor sit elit,sed do eiusmod elit,sed do eiusmod
+							ipsum
+						</div>
+					</div>
+
+					<div class="testimonial__item">
+						<img src="img/testimonial/woman.png" alt="woman" />
+						<div class="testimonial__title">Julia,45 • Manager</div>
+						<div class="testimonial__descr">
+							Lorem ipsum dolor sit elit,sed do eiusmod elit,sed do eiusmod
+							ipsum
+						</div>
+					</div>
+
+					<div class="testimonial__item">
+						<img src="img/testimonial/men_1.png" alt="men" />
+						<div class="testimonial__title">Jonh,35 • Manager</div>
+						<div class="testimonial__descr">
+							Lorem ipsum dolor sit elit,sed do eiusmod elit,sed do eiusmod
+							ipsum
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="ingredients">
+			<div class="container">
+				<div class="title">
+					<div class="title__header">Main Ingredients</div>
+					<img class="title__icon" src="./icons/hr.png" alt="hr" />
+					<div class="title__subtitle">What is inside Simpleat?</div>
+				</div>
+				<div class="ingredients__wrapper">
+					<div class="ingredients__item">
+						<img src="img/ingredients/soyabean.png" alt="soyabean" />
+						<div class="ingredients__subtitle">Soybean protein</div>
+						<div class="ingredients__descr">
+							Soy is a complete protein and rich in vitamins and minerals.
+							Soybean protein provides all the essential amino acids in the
+							amounts needed for human health.
+						</div>
+					</div>
+
+					<div class="ingredients__item">
+						<img src="img/ingredients/oil.png" alt="oil" />
+						<div class="ingredients__subtitle">Oils</div>
+						<div class="ingredients__descr">
+							The perfect mix of lipids from sea algae, coconut, sunflower,
+							flaxseed and canola. Rich with omega-3, unsaturated fatty acids
+							DHA and EPA, which contribute to the normal function of the heart
+							and brain function.
+						</div>
+					</div>
+
+					<div class="ingredients__item">
+						<img src="img/ingredients/oat-flour.png" alt="oat-flour" />
+						<div class="ingredients__subtitle">Oat flour</div>
+						<div class="ingredients__descr">
+							Oat flour is made from whole oats and contains beta-glucans. This
+							fiber have shown to lower risk factors for heart disease such as
+							high cholesterol and high blood pressure.
+						</div>
+					</div>
+
+					<div class="ingredients__item">
+						<img src="img/ingredients/isomaltulos.png" alt="isomaltulos" />
+						<div class="ingredients__subtitle">Isomaltulose</div>
+						<div class="ingredients__descr">
+							Isomaltulose is a natural occurring disaccharide. It keeps you
+							energetic without the spikes of refined sugar.
+						</div>
+					</div>
+
+					<div class="ingredients__item">
+						<img
+							src="img/ingredients/minerals-vitamins.png"
+							alt="minerals-vitaminssub"
+						/>
+						<div class="ingredients__subtitle">Minerals & Vitamins</div>
+						<div class="ingredients__descr">
+							A bottle of Simpleat contains 20% of daily requirements of all
+							micronutrients for your body.
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="facts">
+			<div class="container">
+				<div class="title">
+					<div class="title__header">Nutritional Facts</div>
+					<img class="title__icon" src="./icons/hr.png" alt="hr" />
+				</div>
+
+				<div class="facts__wrapper">
+					<div class="facts__left">
+						<div class="facts__item">
+							<div class="facts__about_left">
+								<div class="facts__subtitle">Energy</div>
+								<div class="facts__descr">
+									400 kcal in one bottle 20% of your daily needs
+								</div>
+							</div>
+							<img src="icons/facts/energy.png" alt="energy" />
+						</div>
+
+						<div class="facts__item facts__to-right">
+							<div class="facts__about_left">
+								<div class="facts__subtitle">Nutrients</div>
+								<div class="facts__descr">
+									25 micronutrients 20% of your daily requirements in each
+									bottle
+								</div>
+							</div>
+							<img src="icons/facts/nutrients.png" alt="nutrients" />
+						</div>
+
+						<div class="facts__item">
+							<div class="facts__about_left">
+								<div class="facts__subtitle">Neutral pleasant taste</div>
+								<div class="facts__descr">
+									Enjoy Simpleat's neutral taste several times a day and never
+									get tired
+								</div>
+							</div>
+							<img src="icons/facts/neutral.png" alt="neutral" />
+						</div>
+					</div>
+
+					<img class="facts__bg" src="img/bottle-circle.png" alt="bottle" />
+
+					<div class="facts__right">
+						<div class="facts__item">
+							<img
+								src="icons/facts/vegan.png"
+								alt="vegan"
+								class="facts__icon"
+							/>
+							<div class="facts__about_right">
+								<div class="facts__subtitle">Vegan, lactose-free, nut-free</div>
+								<div class="facts__descr">Easy to make food descisions.</div>
+							</div>
+						</div>
+
+						<div class="facts__item facts__to-left">
+							<img src="icons/facts/lab.png" alt="lab" class="facts__icon" />
+							<div class="facts__about_right">
+								<div class="facts__subtitle">Scientifically approved</div>
+								<div class="facts__descr">
+									Simpleat is designed in a lab, based on clinical studies and
+									produced using the latest high-tech.
+								</div>
+							</div>
+						</div>
+
+						<div class="facts__item">
+							<img src="icons/facts/life.png" alt="life" class="facts__icon" />
+							<div class="facts__about_right">
+								<div class="facts__subtitle">Anywhere you go</div>
+								<div class="facts__descr">
+									1-year shelf life and no refrigeration required. Excellent
+									nutrition is always with you
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<a class="facts__link" href="example.PDF" download>Download PDF</a>
+				<button class="btn btn__facts">Order Now</button>
+			</div>
+		</section>
+
+		<section class="index">
+			<div class="container">
+				<div class="title">
+					<div class="title__header">Low glycemic and insulin index</div>
+					<img class="title__icon" src="./icons/hr.png" alt="hr" />
+					<div class="title__subtitle">
+						Lorem Ipsum is simply dummy text of the printing and typesetting
+						industry. Lorem Ipsum has been the industry's standard dummy text
+						ever since the 1500s, when an unknown printer took a galley of type
+						and scrambled it to make a type specimen book.
+					</div>
+				</div>
+				<img class="index__structure" src="img/index.png" alt="index" />
+			</div>
+		</section>
+
+		<section class="tabs">
+			<div class="container">
+				<div class="title">
+					<div class="title__header">Simpleat — Super food</div>
+					<img class="title__icon" src="./icons/hr.png" alt="hr" />
+					<div class="title__subtitle">
+						Nutritional Profile.
+						<br />
+						Click on the Title to learm more
+					</div>
+				</div>
+				<div class="tabs__menu">
+					<a class="tabs__link" href="#">Manufactures</a>
+					<a class="tabs__link" href="#">Vitamins</a>
+					<a class="tabs__link" href="#">Minerals</a>
+				</div>
+				<div class="tabs__wrapper">
+					<div class="tabs__img">
+						<img src="img/bottle.png" alt="bottle" />
+						<div>What's inside?</div>
+					</div>
+
+					<div class="tabs__table">
+						<table class="tabs__items">
+							<thead>
+								<tr>
+									<td></td>
+									<th class="tabs__black">Amount</th>
+									<th class="tabs__black">%RI</th>
+								</tr>
+							</thead>
+							<tbody class="tabs__content">
+								<tr>
+									<th>Calories</th>
+									<td>400 kcal</td>
+									<td>20%</td>
+								</tr>
+								<tr>
+									<th>Fat</th>
+									<td>27.7g</td>
+									<td></td>
+								</tr>
+								<tr>
+									<th>Saturated</th>
+									<td>10.5g</td>
+									<td></td>
+								</tr>
+								<tr>
+									<th>Monosaturated</th>
+									<td>5.3g</td>
+									<td></td>
+								</tr>
+								<tr>
+									<th>Polyunsaturated</th>
+									<td>10.4g</td>
+									<td></td>
+								</tr>
+								<tr>
+									<th>Omega 3 fatty acids</th>
+									<td>1.3g</td>
+									<td></td>
+								</tr>
+								<tr>
+									<th>Omega 6 fatty acids</th>
+									<td>7.6g</td>
+									<td></td>
+								</tr>
+								<tr>
+									<th>Carbohydrates</th>
+									<td>80.8g</td>
+									<td></td>
+								</tr>
+								<tr>
+									<th>Sugars</th>
+									<td>20.7g</td>
+									<td></td>
+								</tr>
+								<tr>
+									<th>Fiber</th>
+									<td>7.0g</td>
+									<td></td>
+								</tr>
+								<tr>
+									<th>Proteine</th>
+									<td>40.1g</td>
+									<td></td>
+								</tr>
+								<tr>
+									<th>Salt</th>
+									<td>2.1g</td>
+									<td></td>
+								</tr>
+							</tbody>
+							<tbody class="tabs__content">
+								<tr>
+									<th>Calories</th>
+									<td>200 kcal</td>
+									<td>17%</td>
+								</tr>
+								<tr>
+									<th>Fat</th>
+									<td>17.9g</td>
+									<td></td>
+								</tr>
+								<tr>
+									<th>Saturated</th>
+									<td>18.3g</td>
+									<td></td>
+								</tr>
+								<tr>
+									<th>Monosaturated</th>
+									<td>7.2g</td>
+									<td></td>
+								</tr>
+								<tr>
+									<th>Polyunsaturated</th>
+									<td>13.7g</td>
+									<td></td>
+								</tr>
+								<tr>
+									<th>Omega 3 fatty acids</th>
+									<td>3.4g</td>
+									<td></td>
+								</tr>
+								<tr>
+									<th>Omega 6 fatty acids</th>
+									<td>4.8g</td>
+									<td></td>
+								</tr>
+								<tr>
+									<th>Carbohydrates</th>
+									<td>99.6g</td>
+									<td></td>
+								</tr>
+								<tr>
+									<th>Sugars</th>
+									<td>27.5g</td>
+									<td></td>
+								</tr>
+								<tr>
+									<th>Fiber</th>
+									<td>5.9g</td>
+									<td></td>
+								</tr>
+								<tr>
+									<th>Proteine</th>
+									<td>51.2g</td>
+									<td></td>
+								</tr>
+								<tr>
+									<th>Salt</th>
+									<td>1.13g</td>
+									<td></td>
+								</tr>
+							</tbody>
+							<tbody class="tabs__content">
+								<tr>
+									<th>Calories</th>
+									<td>335 kcal</td>
+									<td>9%</td>
+								</tr>
+								<tr>
+									<th>Fat</th>
+									<td>53.7g</td>
+									<td></td>
+								</tr>
+								<tr>
+									<th>Saturated</th>
+									<td>21.5g</td>
+									<td></td>
+								</tr>
+								<tr>
+									<th>Monosaturated</th>
+									<td>8.3g</td>
+									<td></td>
+								</tr>
+								<tr>
+									<th>Polyunsaturated</th>
+									<td>22.4g</td>
+									<td></td>
+								</tr>
+								<tr>
+									<th>Omega 3 fatty acids</th>
+									<td>5.3g</td>
+									<td></td>
+								</tr>
+								<tr>
+									<th>Omega 6 fatty acids</th>
+									<td>13.6g</td>
+									<td></td>
+								</tr>
+								<tr>
+									<th>Carbohydrates</th>
+									<td>30.8g</td>
+									<td></td>
+								</tr>
+								<tr>
+									<th>Sugars</th>
+									<td>37.7g</td>
+									<td></td>
+								</tr>
+								<tr>
+									<th>Fiber</th>
+									<td>1.0g</td>
+									<td></td>
+								</tr>
+								<tr>
+									<th>Proteine</th>
+									<td>26.1g</td>
+									<td></td>
+								</tr>
+								<tr>
+									<th>Salt</th>
+									<td>9.1g</td>
+									<td></td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+				</div>
+				<button class="btn btn__tabs">Order Now</button>
+			</div>
+		</section>
+
+		<section class="form">
+			<div class="container">
+				<div class="title">
+					<div class="title__header">Join us</div>
+					<img class="title__icon" src="./icons/hr.png" alt="hr" />
+					<div class="title__subtitle">
+						Stay updated, enjoy special offers and bonuses
+					</div>
+				</div>
+				<form class="form__wrapper">
+					<input class="form__input" type="email" value="Your e-mail" />
+					<button class="btn btn__form">Sign Up</button>
+				</form>
+			</div>
+		</section>
+
+		<footer class="footer">
+			<div class="footer__social">
+				<div class="footer__icons">
+					<a href="https://www.facebook.com/simpleat.me">
+						<img src="icons/footer/facebook.png" alt="facebook"
+					/></a>
+
+					<a href="https://twitter.com/simpleat.me">
+						<img src="icons/footer/twitter.png" alt="twitter" />
+					</a>
+
+					<a href="https://www.instagram.com/simpleat.me/">
+						<img src="icons/footer/instagram.png" alt="instagram" />
+					</a>
+				</div>
+				<div class="footer__menu">
+					<a href="#">Blog</a>
+					<a href="#">FAQ</a>
+					<a href="#">Legal</a>
+				</div>
+				<div class="footer__copy">© 2018,Simpleat</div>
+			</div>
+			<div class="footer__contacts">
+				<div class="footer__item">
+					<img src="icons/footer/phone.png" alt="phone" />
+					<a href="tel:+123456789000">
+						+123 456 789 000
+						<span>Every day from 8 AM - 8 PM</span>
+					</a>
+				</div>
+
+				<div class="footer__item">
+					<img src="icons/footer/mail.png" alt="mail" />
+					<a href="mailto:info@simleat.me">
+						info@simpleat.me
+						<span>We will respond ASAP</span>
+					</a>
+				</div>
+
+				<div class="footer__item">
+					<select class="footer__language">
+						<option selected value="English">English</option>
+						<option value="Русский">Русский</option>
+						<option value="Romanian">Romanian</option>
+					</select>
+				</div>
+			</div>
+		</footer>
+
+		<script type="module" src="js/script.js"></script>
+	</body>
+</html>

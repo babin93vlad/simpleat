@@ -1,0 +1,20 @@
+.form {
+	min-height: 408px;
+	padding: 100px 0 90px 0;
+	&__wrapper {
+		display: flex;
+		justify-content: center;
+		margin-top: 50px;
+	}
+	&__input {
+		width: 509px;
+		height: 60px;
+		border-radius: 6px;
+		border: solid 2px #e5e4d7;
+		padding: 20px;
+		font-family: $montserrat_regular;
+		font-size: 24px;
+		color: $grey_color;
+		margin-right: 20px;
+	}
+}

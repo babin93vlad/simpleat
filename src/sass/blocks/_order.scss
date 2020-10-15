@@ -1,0 +1,142 @@
+.order {
+	position: relative;
+	min-height: 700px;
+	padding: 200px 0 90px 0;
+	&__wrapper {
+		display: flex;
+	}
+	&__img {
+		margin-left: 20px;
+	}
+	&__product {
+		margin-top: 10px;
+		padding-left: 86px;
+	}
+	&__descr {
+		margin-top: 10px;
+		font-family: $montserrat_regular;
+		font-weight: 400;
+		font-size: 16px;
+		line-height: 1.5;
+		color: #41474d;
+		text-align: center;
+		span {
+			margin-top: 10px;
+			font-family: $montserrat_bold;
+			font-weight: 700;
+			display: block;
+			color: $grey_color;
+		}
+	}
+	&__number {
+		margin-top: 30px;
+		padding: 10px;
+		border: 2px solid #e5e4d7;
+		border-radius: 6px;
+		width: 554px;
+		height: 60px;
+		appearance: none;
+		background: url("../../icons/select.png") no-repeat;
+		background-position: right 10px top 50%, 0 0;
+		font-family: $montserrat_regular;
+		font-size: 24px;
+		color: $grey_color;
+
+		&:focus {
+			outline: none;
+			box-shadow: 0 1px 3px rgba(48, 50, 53, 0.7);
+		}
+	}
+	&__check {
+		display: flex;
+		margin-top: 25px;
+	}
+	&__checkbox {
+		position: relative;
+		display: flex;
+		flex-direction: row;
+		width: 290px;
+	}
+	&__label {
+		position: relative;
+		font-family: $montserrat_regular;
+		font-size: 16px;
+		color: $light-grey_color;
+		margin-left: 50px;
+		padding: 0 20px;
+	}
+	&__input {
+		display: none;
+	}
+	&__checked {
+		display: inline-block;
+		position: absolute;
+		left: -50px;
+		top: 50%;
+		transform: translateY(-50%);
+		width: 40px;
+		height: 40px;
+		background: url("../../icons/unchecked.png") center center no-repeat;
+		&:before {
+			content: "";
+			background: url("../../icons/checked.png") center center no-repeat;
+			position: absolute;
+			width: 40px;
+			height: 40px;
+			top: 50%;
+			transform: translateY(-50%);
+			opacity: 0;
+			transition: 0.7s;
+			z-index: 9999;
+		}
+	}
+	&__input:checked + &__checked:before {
+		opacity: 1;
+	}
+
+	&__subtitle {
+		font-family: $montserrat_bold;
+		font-size: 16px;
+		font-weight: 700;
+		color: $grey_color;
+	}
+	&__popup {
+		display: none;
+		position: absolute;
+		top: 54%;
+		left: 70%;
+		width: 290px;
+		padding: 10px 30px 10px 10px;
+		font-family: $montserrat_regular;
+		font-size: 13px;
+		line-height: 15px;
+		border: 1px solid #e5e4d7;
+		box-shadow: 0px 0px 19px 5px rgba(229, 228, 215, 0.89);
+		z-index: 999;
+		background-color: #fff;
+
+		&:after {
+			border: medium solid transparent;
+			content: "";
+			top: 100%;
+			left: 50%;
+			position: absolute;
+			height: 0;
+			width: 0;
+			border-color: #fff rgba(255, 212, 52, 0) rgba(255, 212, 52, 0);
+			border-width: 10px;
+			margin-left: -25px;
+		}
+	}
+
+	&__price {
+		display: flex;
+		font-family: $montserrat_regular;
+		font-size: 16px;
+		color: $light-grey_color;
+		margin-top: 40px;
+		div {
+			width: 250px;
+		}
+	}
+}

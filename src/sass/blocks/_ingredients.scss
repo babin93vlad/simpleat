@@ -1,0 +1,29 @@
+.ingredients {
+	padding: 100px 0 85px 0;
+	min-height: 743px;
+	&__wrapper {
+		display: flex;
+		justify-content: space-between;
+		margin-top: 32px;
+	}
+	&__item {
+		padding: 10px 0;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		max-width: 194px;
+	}
+	&__subtitle {
+		margin-top: 21px;
+		font-family: $bebas_regular;
+		font-size: 24px;
+		color: $grey_color;
+	}
+	&__descr {
+		margin-top: 20px;
+		font-family: $montserrat_regular;
+		font-size: 13px;
+		text-align: center;
+		color: #41474d;
+	}
+}

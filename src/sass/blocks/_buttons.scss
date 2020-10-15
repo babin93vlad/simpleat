@@ -1,0 +1,49 @@
+.btn {
+	border: none;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	align-items: center;
+	border-radius: 6px;
+	background-color: $green_color;
+	font-family: $montserrat_bold;
+	font-size: 16px;
+	font-weight: 700;
+	text-align: center;
+	color: #ffffff;
+	&:hover {
+		opacity: 0.8;
+	}
+	&__header {
+		width: 130px;
+		height: 43px;
+	}
+	&__order {
+		width: 261px;
+		height: 60px;
+		margin-left: 40px;
+	}
+	&__benefits {
+		width: 249px;
+		height: 60px;
+		margin: 25px auto;
+	}
+	&__facts {
+		width: 200px;
+		height: 60px;
+		margin: 25px auto;
+	}
+	&__tabs {
+		width: 200px;
+		height: 60px;
+		margin: 40px auto;
+	}
+	&__form {
+		width: 221px;
+		height: 60px;
+	}
+	&__cookies {
+		width: 118px;
+		height: 40px;
+	}
+}
