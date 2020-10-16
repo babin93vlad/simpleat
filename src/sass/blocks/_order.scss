@@ -14,7 +14,7 @@
 	}
 	&__descr {
 		margin-top: 10px;
-		font-family: $montserrat_regular;
+		font-family: "Montserrat Regular";
 		font-weight: 400;
 		font-size: 16px;
 		line-height: 1.5;
@@ -22,8 +22,8 @@
 		text-align: center;
 		span {
 			margin-top: 10px;
-			font-family: $montserrat_bold;
-			font-weight: 700;
+			font-family: "Montserrat Bold";
+			font-weight: bold;
 			display: block;
 			color: $grey_color;
 		}
@@ -38,7 +38,7 @@
 		appearance: none;
 		background: url("../../icons/select.png") no-repeat;
 		background-position: right 10px top 50%, 0 0;
-		font-family: $montserrat_regular;
+		font-family: "Montserrat Regular";
 		font-size: 24px;
 		color: $grey_color;
 
@@ -59,7 +59,7 @@
 	}
 	&__label {
 		position: relative;
-		font-family: $montserrat_regular;
+		font-family: "Montserrat Regular";
 		font-size: 16px;
 		color: $light-grey_color;
 		margin-left: 50px;
@@ -95,19 +95,19 @@
 	}
 
 	&__subtitle {
-		font-family: $montserrat_bold;
+		font-family: "Montserrat Bold";
 		font-size: 16px;
-		font-weight: 700;
+		font-weight: bold;
 		color: $grey_color;
 	}
 	&__popup {
-		display: none;
+		// display: none;
 		position: absolute;
 		top: 54%;
 		left: 70%;
 		width: 290px;
 		padding: 10px 30px 10px 10px;
-		font-family: $montserrat_regular;
+		font-family: "Montserrat Regular";
 		font-size: 13px;
 		line-height: 15px;
 		border: 1px solid #e5e4d7;
@@ -131,7 +131,7 @@
 
 	&__price {
 		display: flex;
-		font-family: $montserrat_regular;
+		font-family: "Montserrat Regular";
 		font-size: 16px;
 		color: $light-grey_color;
 		margin-top: 40px;

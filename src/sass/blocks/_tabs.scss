@@ -9,7 +9,7 @@
 	}
 	&__link {
 		text-transform: uppercase;
-		font-family: $bebas_regular;
+		font-family: "Bebas Neue Regular";
 		font-size: 24px;
 		text-align: center;
 		color: #121920;
@@ -32,7 +32,7 @@
 			top: 50%;
 			left: 25%;
 			transform: translateY(-50%);
-			font-family: $montserrat_regular;
+			font-family: "Montserrat Regular";
 			font-size: 30px;
 			text-align: center;
 			color: $grey_color;
@@ -62,13 +62,13 @@ table {
 		height: 35px;
 		th {
 			min-height: 35px;
-			font-family: $montserrat_regular;
+			font-family: "Montserrat Bold";
 			font-size: 16px;
 			font-weight: bold;
 			color: #36c1ba;
 		}
 		td {
-			font-family: $montserrat_regular;
+			font-family: "Montserrat Regular";
 			font-size: 16px;
 			color: #41474d;
 		}

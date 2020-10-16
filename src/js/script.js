@@ -7,7 +7,9 @@ window.addEventListener("DOMContentLoaded", () => {
 
 	const scroll = document.querySelector(".btn__header"),
 		cookies = document.querySelector(".cookies"),
-		cookiesBtn = document.querySelector("#cookies");
+		checkbox = document.getElementById("subscribe"),
+		cookiesBtn = document.querySelector("#cookies"),
+		popup = document.querySelector(".order__popup");
 
 	scroll.addEventListener("click", () => {
 		document.body.scrollTop = document.documentElement.scrollTop = 0;
@@ -16,18 +18,12 @@ window.addEventListener("DOMContentLoaded", () => {
 	cookiesBtn.addEventListener("click", () => {
 		cookies.style.display = "none";
 	});
+
+	checkbox.addEventListener("input", () => {
+		if (!checkbox.checked) {
+			popup.style.display = "none";
+		} else {
+			popup.style.display = "block";
+		}
+	});
 });
-
-// const scroll = document.querySelector(".btn__header"),
-// 	cookies = document.querySelector(".cookies"),
-// 	cookiesBtn = document.querySelector("#cookies"),
-// 	checkbox = document.getElementById("subscribe"),
-// 	popup = document.querySelector(".order__popup");
-
-// checkbox.addEventListener("input", () => {
-// 	if (!checkbox.checked) {
-// 		popup.style.display = "none";
-// 	} else {
-// 		popup.style.display = "block";
-// 	}
-// });
